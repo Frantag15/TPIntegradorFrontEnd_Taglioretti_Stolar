@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import LoginPage from '../pages/LoginPage';
-import RegisterPage from '../pages/RegisterPage';
+import LoginPage from '../pages/Login';
+import RegisterPage from '../pages/Register';
 import EventosPage from '../pages/EventosPage';
-import EventoDetallePage from '../pages/EventoDetallePage';
-import CrearEventoPage from '../pages/CrearEventoPage';
+import EventoDetallePage from '../pages/EventDetail';
+import CrearEventoPage from '../pages/Home';
 import { useAuth } from '../contexts/AuthContext';
 
 function PrivateRoute({ children }) {
